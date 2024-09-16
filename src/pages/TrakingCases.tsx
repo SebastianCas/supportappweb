@@ -141,47 +141,6 @@ const TrakingCases: React.FC = () => {
         </Col>
       </Row>
     </Container>
-    // <div>
-    //   <div>
-    //     <h1>Traking Cases</h1>
-    //     {isLoading ? (
-    //       <div className="spinner"></div>
-    //     ) : (
-    //       <div>
-    //         <input type="text" placeholder="Search..." value={searchQuery} onChange={handleSearch} />
-    //         <label htmlFor="createBy">Created By</label>
-    //         <select id="createBy" onChange={handelUserChange} value={selectedUser || ""}>
-    //           <option value="">All</option>
-    //           {users.map((user) => (
-    //             <option key={user.id} value={user.id}>
-    //               {user.username}
-    //             </option>
-    //           ))}
-    //         </select>
-    //         <Table
-    //           data={currentItems}
-    //           colums={[
-    //             { key: "description", header: "Description" },
-    //             { key: "database_name", header: "Database Name" },
-    //             { key: "schema_name", header: "Schema Name" },
-    //             { key: "username", header: "Create By" },
-    //             { key: "created_at", header: "Created At", isSorteable: true },
-    //           ]}
-    //           sortDirection={sortDirection}
-    //           onSort={sortDirectionHandler}
-    //         />
-    //         <div>
-    //           <Pagination
-    //             itemsPerPage={itemsPerPage}
-    //             totalItems={tickets.length}
-    //             paginate={paginate}
-    //             currentPage={currentPage}
-    //           />
-    //         </div>
-    //       </div>
-    //     )}
-    //   </div>
-    // </div>
   );
 };
 
